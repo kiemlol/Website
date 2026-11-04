@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090a0f"/>
+      <stop offset="50%" stop-color="#12151e"/>
+      <stop offset="100%" stop-color="#0b0c10"/>
+    </linearGradient>
+    <radialGradient id="ceilingLamp" cx="50%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#f59e0b" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#090a0f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#studioBg)"/>
+  <rect width="1600" height="900" fill="url(#ceilingLamp)"/>
+
+  <!-- Architectural Acoustic Wall Panels & Glass Partition -->
+  <g stroke="#27272a" stroke-width="2">
+    <line x1="200" y1="0" x2="200" y2="680"/>
+    <line x1="520" y1="0" x2="520" y2="680"/>
+    <line x1="1080" y1="0" x2="1080" y2="680"/>
+    <line x1="1400" y1="0" x2="1400" y2="680"/>
+  </g>
+
+  <!-- Linear Pendant Architectural Lights -->
+  <rect x="320" y="85" width="360" height="8" rx="4" fill="#fde68a"/>
+  <rect x="920" y="85" width="360" height="8" rx="4" fill="#fde68a"/>
+
+  <!-- Background Motion-Capture Stage Window -->
+  <rect x="560" y="180" width="480" height="310" rx="8" fill="#07090e" stroke="#3f3f46" stroke-width="3"/>
+  <!-- 3D Wireframe Grid Inside Mocap Stage -->
+  <g stroke="#f59e0b" stroke-opacity="0.25" stroke-width="1">
+    <line x1="560" y1="420" x2="1040" y2="420"/>
+    <line x1="560" y1="455" x2="1040" y2="455"/>
+    <line x1="680" y1="490" x2="750" y2="380"/>
+    <line x1="800" y1="490" x2="800" y2="380"/>
+    <line x1="920" y1="490" x2="850" y2="380"/>
+  </g>
+  <!-- Mocap Actor Rig Skeleton Nodes -->
+  <g stroke="#fbbf24" stroke-width="2" fill="#fde68a">
+    <circle cx="800" cy="270" r="6"/>
+    <line x1="800" y1="276" x2="800" y2="355"/>
+    <line x1="760" y1="305" x2="840" y2="305"/>
+    <line x1="800" y1="355" x2="775" y2="430"/>
+    <line x1="800" y1="355" x2="825" y2="430"/>
+    <circle cx="760" cy="305" r="4"/>
+    <circle cx="840" cy="305" r="4"/>
+    <circle cx="775" cy="430" r="4"/>
+    <circle cx="825" cy="430" r="4"/>
+  </g>
+
+  <!-- Foreground Dual Ultra-Wide Developer Workstations -->
+  <rect x="120" y="640" width="1360" height="28" rx="4" fill="#27201c" stroke="#f59e0b" stroke-opacity="0.3"/>
+  <rect x="160" y="668" width="1280" height="232" fill="#090a0d"/>
+
+  <!-- Left Workstation: Unreal Engine 5 Level Viewport -->
+  <rect x="240" y="430" width="440" height="190" rx="8" fill="#0d1117" stroke="#52525b" stroke-width="3"/>
+  <rect x="440" y="620" width="40" height="22" fill="#3f3f46"/>
+  <!-- 3D Terrain Mesh on Left Screen -->
+  <path d="M265,580 L340,490 L420,545 L510,465 L610,555 L655,515" fill="none" stroke="#38bdf8" stroke-width="2"/>
+  <path d="M265,595 L350,520 L435,565 L525,495 L655,585" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-opacity="0.7"/>
+
+  <!-- Right Workstation: Shader Graph & Frame Timing Profiler -->
+  <rect x="920" y="430" width="440" height="190" rx="8" fill="#0d1117" stroke="#52525b" stroke-width="3"/>
+  <rect x="1120" y="620" width="40" height="22" fill="#3f3f46"/>
+  <rect x="950" y="460" width="110" height="55" rx="4" fill="#18181b" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="1120" y="485" width="110" height="55" rx="4" fill="#18181b" stroke="#38bdf8" stroke-width="1.5"/>
+  <path d="M1060,488 C1090,488 1090,512 1120,512" fill="none" stroke="#fbbf24" stroke-width="2"/>
+</svg>

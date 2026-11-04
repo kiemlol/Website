@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#07090e"/>
+      <stop offset="45%" stop-color="#141824"/>
+      <stop offset="78%" stop-color="#2c211b"/>
+      <stop offset="100%" stop-color="#0a0b0e"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="62%" cy="54%" r="48%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.55"/>
+      <stop offset="35%" stop-color="#d97706" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#78350f" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#07090e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0a0b0e" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="citadelLit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="30%" stop-color="#27272a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#090a0f" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Canvas -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#sunGlow)"/>
+
+  <!-- Celestial Eclipse Ring -->
+  <circle cx="990" cy="390" r="145" fill="#090b10" stroke="#fbbf24" stroke-width="2.5" stroke-opacity="0.55"/>
+  <circle cx="990" cy="390" r="168" fill="none" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.25" stroke-dasharray="12 8"/>
+
+  <!-- Volumetric Sunbeams -->
+  <polygon points="990,390 420,900 680,900" fill="url(#beam)"/>
+  <polygon points="990,390 780,900 1120,900" fill="url(#beam)"/>
+  <polygon points="990,390 1220,900 1550,900" fill="url(#beam)"/>
+
+  <!-- Distant Mountain Ranges -->
+  <polygon points="0,680 180,510 350,610 560,440 780,590 960,480 1190,560 1390,420 1600,550 1600,900 0,900" fill="#12151f" opacity="0.85"/>
+  <polygon points="0,720 240,560 470,660 710,510 920,640 1160,490 1420,610 1600,530 1600,900 0,900" fill="#0d1017"/>
+
+  <!-- Floating Ancient Monoliths & Citadels -->
+  <g transform="translate(880, 170)">
+    <polygon points="80,0 130,45 115,240 65,295 45,230 55,40" fill="url(#citadelLit)"/>
+    <polygon points="80,0 105,35 95,255 65,295" fill="#090a0f" opacity="0.6"/>
+    <!-- Glowing Rune Spire -->
+    <rect x="78" y="65" width="4" height="110" fill="#fbbf24" opacity="0.85"/>
+    <circle cx="80" cy="50" r="5" fill="#fde68a"/>
+  </g>
+
+  <g transform="translate(620, 230)">
+    <polygon points="50,0 90,30 82,175 45,215 22,165 30,28" fill="url(#citadelLit)"/>
+    <rect x="49" y="45" width="3" height="75" fill="#f59e0b" opacity="0.75"/>
+  </g>
+
+  <g transform="translate(1150, 210)">
+    <polygon points="60,10 105,45 92,190 52,235 28,180 35,40" fill="url(#citadelLit)"/>
+    <rect x="59" y="60" width="3" height="80" fill="#f59e0b" opacity="0.65"/>
+  </g>
+
+  <!-- Colossal Cathedral Fortress Silhouette in Midground -->
+  <g fill="#0c0e14" stroke="#f59e0b" stroke-opacity="0.18" stroke-width="1">
+    <rect x="470" y="390" width="60" height="260"/>
+    <polygon points="470,390 500,310 530,390"/>
+    <rect x="530" y="440" width="140" height="210"/>
+    <polygon points="550,440 600,350 650,440"/>
+    <!-- Cathedral Arch -->
+    <path d="M575,650 L575,520 Q600,485 625,520 L625,650 Z" fill="#f59e0b" fill-opacity="0.28"/>
+  </g>
+
+  <!-- Valley Golden Mist -->
+  <rect x="0" y="540" width="1600" height="360" fill="url(#mist)"/>
+
+  <!-- Foreground Ruined Bridge & Cliff Overlook -->
+  <polygon points="0,630 390,650 540,735 610,900 0,900" fill="#07080c"/>
+  <polygon points="390,650 435,642 560,725 540,735" fill="#f59e0b" opacity="0.28"/>
+
+  <!-- Lone Armored Knight Silhouette on Cliff Edge -->
+  <g transform="translate(345, 558)">
+    <!-- Flowing Cloak -->
+    <path d="M22,28 C5,45 -18,68 -28,88 C-5,84 15,78 30,86 Z" fill="#18181b"/>
+    <!-- Armor Torso & Helm -->
+    <circle cx="28" cy="12" r="7" fill="#090a0f" stroke="#fbbf24" stroke-width="1.2" stroke-opacity="0.7"/>
+    <path d="M18,20 L38,20 L42,56 L14,56 Z" fill="#090a0f"/>
+    <path d="M16,56 L24,92 L30,92 L28,58 L34,92 L40,92 L38,56 Z" fill="#090a0f"/>
+    <!-- Greatsword with Runic Edge -->
+    <line x1="42" y1="36" x2="68" y2="94" stroke="#d4d4d8" stroke-width="3.5"/>
+    <line x1="42" y1="36" x2="68" y2="94" stroke="#fbbf24" stroke-width="1.2"/>
+    <line x1="34" y1="40" x2="50" y2="32" stroke="#f59e0b" stroke-width="3"/>
+  </g>
+
+  <!-- Floating Ember Particles -->
+  <g fill="#fbbf24" opacity="0.75">
+    <circle cx="420" cy="520" r="2"/>
+    <circle cx="485" cy="490" r="1.5"/>
+    <circle cx="640" cy="580" r="2.5"/>
+    <circle cx="830" cy="470" r="1.8"/>
+    <circle cx="950" cy="530" r="2.2"/>
+    <circle cx="1090" cy="460" r="1.6"/>
+    <circle cx="1240" cy="590" r="2"/>
+  </g>
+</svg>

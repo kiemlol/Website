@@ -1,0 +1,6 @@
+{
+  "name": "EntenalSmp — Studio Phát Triển Game & Giải Pháp Giải Trí Tương Tác",
+  "description": "EntenalSmp là studio phát triển game chuyên nghiệp: Sáng tạo thế giới không giới hạn, Chất lượng tạo nên đẳng cấp. Quảng bá các dự án game mới nhất, đội ngũ cốt cán và dịch vụ phát triển game toàn diện.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

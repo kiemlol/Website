@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="dawnSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#091516"/>
+      <stop offset="45%" stop-color="#132a28"/>
+      <stop offset="80%" stop-color="#3b2f1e"/>
+      <stop offset="100%" stop-color="#0b1312"/>
+    </linearGradient>
+    <radialGradient id="goldenSun" cx="50%" cy="38%" r="42%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#f59e0b" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#091516" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="waterfall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.75"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#dawnSky)"/>
+  <rect width="1200" height="900" fill="url(#goldenSun)"/>
+
+  <!-- Morning Sun Disc with Dong Son Bronze Drum Motif Ring -->
+  <circle cx="600" cy="330" r="115" fill="#fef3c7" fill-opacity="0.85"/>
+  <circle cx="600" cy="330" r="145" fill="none" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.4" stroke-dasharray="8 6"/>
+  <circle cx="600" cy="330" r="175" fill="none" stroke="#fbbf24" stroke-width="1" stroke-opacity="0.25"/>
+
+  <!-- Limestone Karst Mountain Peaks (Tan Vien / Ha Long Inspired) -->
+  <polygon points="0,700 110,360 230,440 350,250 490,520 600,680 0,680" fill="#112221"/>
+  <polygon points="600,680 730,490 860,240 990,420 1110,330 1200,650 1200,700" fill="#112221"/>
+
+  <!-- Ancient Vietnamese Curved-Roof Mountain Sanctuary -->
+  <g transform="translate(470, 355)">
+    <!-- Stone Terrace Foundation -->
+    <polygon points="40,145 220,145 250,240 10,240" fill="#192826" stroke="#f59e0b" stroke-opacity="0.3"/>
+    <!-- Tier 1 Curved Temple Roof -->
+    <path d="M5,115 Q40,140 130,140 Q220,140 255,115 L230,145 L30,145 Z" fill="#0d1716" stroke="#fbbf24" stroke-width="1.5" stroke-opacity="0.6"/>
+    <!-- Tier 2 Curved Temple Roof -->
+    <path d="M35,75 Q65,98 130,98 Q195,98 225,75 L205,105 L55,105 Z" fill="#0d1716" stroke="#fbbf24" stroke-width="1.5" stroke-opacity="0.6"/>
+    <!-- Glowing Sanctuary Lantern Core -->
+    <rect x="115" y="108" width="30" height="36" fill="#fbbf24" opacity="0.85"/>
+  </g>
+
+  <!-- Twin Sacred Waterfalls -->
+  <rect x="338" y="390" width="18" height="340" fill="url(#waterfall)"/>
+  <rect x="845" y="380" width="22" height="350" fill="url(#waterfall)"/>
+
+  <!-- Foreground Cliff & Sacred Pine Silhouette -->
+  <polygon points="0,640 420,670 580,760 1200,720 1200,900 0,900" fill="#070d0d"/>
+  <path d="M180,660 L185,510 L165,510 Z" fill="#050909"/>
+  <ellipse cx="195" cy="515" rx="65" ry="18" fill="#071110"/>
+  <ellipse cx="160" cy="540" rx="50" ry="14" fill="#071110"/>
+</svg>
